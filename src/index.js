@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Import firebase connection from file
+import './firebase';
+// importing bootswatch themes https://bootswatch.com/
+import 'bootswatch/dist/solar/bootstrap.min.css'
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
